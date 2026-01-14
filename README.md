@@ -1,6 +1,5 @@
 # Biometric Cattle Detection & Behavioral Analysis
 
-**Lead Researcher:** Abdulhamid Daghistani  
 **Academic Institution:** University of Guelph, School of Engineering  
 **Project Scope:** Development of a high-precision pose estimation pipeline for identifying illness-related gait markers in livestock.
 
