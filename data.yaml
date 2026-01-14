@@ -31,7 +31,13 @@ roboflow:
   url: https://universe.roboflow.com/mikaelapisani/cow-pose-estimation-fxosp/dataset/1
   version: 1
   workspace: mikaelapisani
-# Replace the existing train/val lines with this:
-train: C:\Users\dagab\Desktop\yoloCow\cow-pose-estimation-1\data\detection_v1_single\train\images
-val: C:\Users\dagab\Desktop\yoloCow\cow-pose-estimation-1\data\detection_v1_single\valid\images
-val: ../valid/images
+
+# Absolute path to your new CLEAN dataset
+path: C:/Users/dagab/Desktop/yoloCow/data/detection_v1_VISUAL_CLEAN
+
+# Relative paths inside that folder
+train: train/images
+val: valid/images
+test: test/images
+
+# (Keep your 'names' and 'kpt_shape' sections below this as they were)
